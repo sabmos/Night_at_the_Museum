@@ -8,6 +8,8 @@ public class WaypointBehavior : MonoBehaviour {
 	public float pulseIntensity = 0.5f;
 	public float pulseFrequency = 4f;
 
+	public WaypointBehavior[] neighborhood;
+
 	bool isLookingAt = false;
 
 	Vector3 baseScale;
@@ -38,5 +40,19 @@ public class WaypointBehavior : MonoBehaviour {
 		isLookingAt = false;
 		gameObject.transform.localScale = baseScale;
 		waypointMaterial.SetColor("_Color", baseColor);
+	}
+
+	public void Active () {
+		gameObject.SetActive (true);
+		// The code below is to reset the waypoints to their original state
+		gameObject.GetComponent<Renderer> ().material.SetColor ("_Color", baseColor);
+		gameObject.transform.localScale = baseScale;
+		isLookingAt = false;
+	}
+
+	public void Activate(WaypointBehavior waypoints) {
+		for (int i = 0; i < waypoints.neighborhood.Length; i++) {
+			waypoints.neighborhood[i].Active();
+		}
 	}
 }
