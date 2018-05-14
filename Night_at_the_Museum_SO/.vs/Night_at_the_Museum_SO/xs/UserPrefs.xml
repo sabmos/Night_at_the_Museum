@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{1A972A7D-C946-0BC2-FEDF-12043E317AC2}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ChangeSceneMenu.cs">
+    <Files>
+      <File FileName="Assets/MovementBehavior.cs" Line="30" Column="33" />
+      <File FileName="Assets/Scripts/SceneChange.cs" Line="19" Column="21" />
+      <File FileName="Assets/Scripts/RaycastMovement.cs" Line="22" Column="5" />
+      <File FileName="Assets/Scripts/ChangeSceneMenu.cs" Line="57" Column="35" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Night__at__the__Museum__SO PreferredExecutionTarget="Unity.Editor" />
+  <MultiItemStartupConfigurations />
+</Properties>
