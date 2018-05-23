@@ -6,7 +6,10 @@ To view the main scene, first open the Night at the Museum project. With the
 project open in Unity, click on the Assets folder, and then go into the MainScene 
 folder. The main scene is labeled "MainScene."
 
-You can view the full write up of this project at the website below:
+Check out the write up for the new Raycast movement system at the website below:
+https://medium.com/@sam.olchovik/a-night-at-the-museum-vr-rooftop-party-update-a658ad17cfae
+
+You can view the full write up the original project here:
 https://medium.com/@sam.olchovik/a-night-at-the-museum-vr-rooftop-party-7f31912ebcdb
 
 ## Credit for Assets Used
